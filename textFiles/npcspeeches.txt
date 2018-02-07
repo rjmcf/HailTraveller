@@ -1,0 +1,28 @@
+# Contains the speeches that npcs say, as a number of lists each value in each 
+# list is a list of strings or dictionaries. Planets are ordered:
+#		Citadel
+# 		FirePlanet
+#		WaterPlanet
+#		AirPlanet
+#		EarthPlanet
+
+citadel_npcs = [
+	["Welcome to the Collective, Traveller. I have seen your progress, and see that you might help us. The inhabitants of the planets have also seen, they have watched, and we have decided to trust you. You must go back to each planet and from each place you must recover a piece of the Ultimate Weapon. Only once you have each piece should you come back to me. But once you have it, do not delay. Time is not on our side!",
+	"You have not yet found all the pieces of the Ultimate Weapon! Go back and search for more!",
+	"You have succeeded in your task! I will go ahead to prepare the Citadel for your arrival. Talk to me again at its doors!",
+	"The citadel is open to you now. I will follow you in when you go, and speak for you to the Grand Collector. So go, enter the Citadel!"]
+	]
+	
+fire_npcs = [
+	["Paxak acknowledges your presence."],
+	["Only our kind can venture up into the volcano. I would not suggest trying.",
+	"You want me to venture in to the volcano for its deepest heat? I shall get it for you, as you have been kind enough to ask. When you next talk to me, I shall have it for you.",
+	"Here is the deepest heat of the volcano. I wish you the best of luck in your travels.",
+	"May the fires of Paxak give you strength."],
+	["It is good that we may be seen outside again, that we may begin to rebuild our village. It's destruction made life difficult for us and our children."],
+	["Are you the one that's going to save us? Cool! Obliterate the bad ones!"],
+	["You are here for our piece of the Ultimate Weapon? I have it, and I can give it to you, but first I would ask that you do something for us. Our forge needs restarting and the only way to do it would be to obtain the deepest heat of the volcano over there. Can you help our planet's people?",
+	{"Yes" : "Thank you for trying to find the deepest heat of the volcano, you will be helping us by doing so!", "No" : "That is a pity. The forges will just have to stay cold until I find some other helper. Talk to me again when you are ready to have our piece of the Ultimate Weapon."},
+	"It is here. The fiery, explosive power of the weapon, the most important part. Take good care of it.",
+	"Take great care of that piece of the Ultimate Weapon, we only have one!"]
+	]
